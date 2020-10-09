@@ -24,7 +24,7 @@
             <if expression="media&gt;=5000">
                 <then>
                     <output expression="&quot;Meus parab&#233;ns! Atingiste a media em vendas estabelecida pela empresa. Seu abono salarial ser&#225; de 10%&quot;" newline="True"/>
-                    <assign variable="abono" expression="salario*(3/100)"/>
+                    <assign variable="abono" expression="salario*(10/100)"/>
                     <assign variable="salariofim" expression="salario+abono"/>
                     <output expression="salariofim" newline="True"/>
                 </then>
