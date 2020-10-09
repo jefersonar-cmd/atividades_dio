@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Home"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-09 01:28:47 "/>
+        <attribute name="created" value="SG9tZTtIT01FLVBDOzIwMjAtMTAtMDk7IjEyOjQ2OjQ2ICI7MjA3NA=="/>
+        <attribute name="edited" value="SG9tZTtIT01FLVBDOzIwMjAtMTAtMDk7IjAxOjI4OjQ3ICI7MTsyMTgx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="jan, fev, mar, abr, media, total, salario, abono, salariofim" type="Real" array="False" size=""/>
+            <assign variable="salario" expression="1289.41"/>
+            <input variable="jan"/>
+            <input variable="fev"/>
+            <input variable="mar"/>
+            <input variable="abr"/>
+            <assign variable="total" expression="jan+fev+mar+abr"/>
+            <output expression="total" newline="True"/>
+            <assign variable="media" expression="total/4"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=5000">
+                <then>
+                    <output expression="&quot;Meus parab&#233;ns! Atingiste a media em vendas estabelecida pela empresa. Seu abono salarial ser&#225; de 10%&quot;" newline="True"/>
+                    <assign variable="abono" expression="salario*(3/100)"/>
+                    <assign variable="salariofim" expression="salario+abono"/>
+                    <output expression="salariofim" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente n&#227;o atingiste o m&#233;dia em vendas nos &#250;ltimos 4 meses. Seu abono salarial ser&#225; de 3%&quot;" newline="True"/>
+                    <assign variable="abono" expression="salario*(3/100)"/>
+                    <assign variable="salariofim" expression="salario+abono"/>
+                    <output expression="salariofim" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
