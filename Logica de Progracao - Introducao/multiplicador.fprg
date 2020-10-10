@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Home"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-09 04:24:57 "/>
+        <attribute name="created" value="SG9tZTtIT01FLVBDOzIwMjAtMTAtMDk7IjA0OjA4OjIxICI7MjA2Ng=="/>
+        <attribute name="edited" value="SG9tZTtIT01FLVBDOzIwMjAtMTAtMDk7IjA0OjI0OjU3ICI7MTsyMTgx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, multiplicador, resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;Bem-Vindo a tabuada digital!&quot;" newline="True"/>
+            <output expression="&quot;Digite o n&#250;mero a ser m&#250;ltiplicado:&quot;" newline="True"/>
+            <input variable="numero"/>
+            <assign variable="multiplicador" expression="0"/>
+            <assign variable="resultado" expression="0"/>
+            <while expression="multiplicador&lt;=10">
+                <assign variable="resultado" expression="numero*multiplicador"/>
+                <output expression="multiplicador &amp; &quot;x&quot; &amp; numero &amp; &quot;= &quot; &amp; resultado" newline="True"/>
+                <assign variable="multiplicador" expression="multiplicador+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
