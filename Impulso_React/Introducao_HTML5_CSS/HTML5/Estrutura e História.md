@@ -15,7 +15,7 @@
 
   - Elemento HTML:
 
-    - ![image-20210928174226067](C:\Users\Work\Documents\teste\Impulso_React_Web_Developer\Impulso_React\Introducao_HTML5_CSS\HTML5\images_md\image-20210928174226067.png)
+    - ![Imgur](https://i.imgur.com/yQji5O9.png)
 
   - Estrutura Básica:
 
@@ -33,5 +33,3 @@
         </body>
     </html>
     </!doctype>
-
-    
