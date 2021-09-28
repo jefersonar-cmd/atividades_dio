@@ -33,3 +33,6 @@
         </body>
     </html>
     </!doctype>
+
+- **Exercício**
+  - Criar estrutura básica para um site
