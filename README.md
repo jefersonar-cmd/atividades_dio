@@ -1,6 +1,7 @@
 # Repositório Atividades/Cursos/Bootcamps da DIO
 - Repositório criado para realizar o propósito de arquivar todas as atividades e anotações dos cursos e bootcamps da DIO.
 - Eles serão atualizados com o tempo.
+
 **Obs.:** Fiz um delete sem where nesse repositório e acabei perdendo as atividades e anotações que fiz do curso de Portugol...
 
 **Espero que gostem do conteúdo**
