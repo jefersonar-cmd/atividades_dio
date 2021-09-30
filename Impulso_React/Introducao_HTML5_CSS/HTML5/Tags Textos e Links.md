@@ -11,4 +11,8 @@
     - **mailto**
     - **tel**
   - **target:** direciona o usuário ao clicar para uma nova guia com  a página e conteúdo.
+- **img = Tag de imagem**
+  - Ele realiza inserção de imagem no site que podem ser: baixadas localmente, ou retiradas da internet.
+  - **src:** comando usado para buscar imagens dentro de pastas ou páginas da internet.
+  - **alt:** responsável pela legenda da imagem ao passar o mouse/cursor sobre ela.
 
