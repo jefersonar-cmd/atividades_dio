@@ -14,5 +14,9 @@
 - **img = Tag de imagem**
   - Ele realiza inserção de imagem no site que podem ser: baixadas localmente, ou retiradas da internet.
   - **src:** comando usado para buscar imagens dentro de pastas ou páginas da internet.
-  - **alt:** responsável pela legenda da imagem ao passar o mouse/cursor sobre ela.
+  - **alt:** Ele mostra a descrição da imagem caso ela não carregue.
+- **Listas**
+  - **ul:** Realiza uma lista não ordenada
+  - **ol:** Realiza uma lista ordenada
+  - **li:** é o item da lista dentro ou de UL ou OL.
 
