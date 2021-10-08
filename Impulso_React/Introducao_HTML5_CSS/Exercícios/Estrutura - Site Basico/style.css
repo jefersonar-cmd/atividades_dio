@@ -1,6 +1,8 @@
 body{
     background: #f7f7f7;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
 }
 
 #title, .sub_title, .post_title {
@@ -36,8 +38,22 @@ a {
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: justify;
 }
 
 .post_image {
     margin-bottom: 15px;
+    width: 100%;
+}
+
+.contact_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contact_list li a {
+    text-decoration: none;
+}
+.contact_list li a:hover{
+    color: aqua;
 }
