@@ -9,6 +9,11 @@ Basicamente ele cria regra de posicionamento e estilização de cada objeto dent
     - São espaçamentos entre elementos. 
   - Border
     - Circundam o padding e o conteúdo
+    - Border como todas as outras propriedades, possui sub-propriedades para formatação/modificação específica.
+      - A borda pode ser editada pela sua largura, cor e estilo
+        - largura: pixel, centímetros, milímetros...
+        - cor: nome da cor (em inglês), hexadecimal e RGB.
+        - estilo: solid, dotted (pontilhado), dashad (tracejado)...
   - Padding
     - é o espaçamento entre a border e o content
     - padding: 10px 5px;
@@ -25,8 +30,23 @@ Basicamente ele cria regra de posicionamento e estilização de cada objeto dent
 - temos também a propriedade **background**, que pode ser usada com sub-propriedades específicas, como:
   - backgroud-
     - color
+      - pode-se ser usado a sub color ou não
+        - o programado poderá especificar a cor por Hexadecimal, RGB (Red, Green and Blue) ou pelo nome da cor.
     - image
     - position
+- Para alteração de estilos de textos
+  - font-family: altera a fonte do texto
+  - font-size: altera o tamanho do texto
+  - font-sytle: altera o estilo da fonte
+  - font-weight: altera o peso do texto
+  - text-transform:
+    - uppercase: deixa o texto em caixa alta
+    - lowercase: deixa o texto em caixa baixa
+    - capitalize: Todas as primeiras letras em caixa alta
+  - text-decoration:
+    - uderline: deixa uma linha em baixo do texto
+    - overline: deixa uma linha acima do texto
+    - line-through: deixa uma linha sobre o texto
 
 ## Objetivos da Aula:
 
