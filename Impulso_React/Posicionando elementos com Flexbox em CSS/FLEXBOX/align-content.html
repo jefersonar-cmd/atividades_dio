@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundamentos - Align COntent</title>
+
+  <style>
+    .container{
+      height: 400px;
+      max-width: 450px;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      border: 1px solid;
+    }
+
+    .item{
+      background-color: orangered;
+      padding: 0 5px;
+      margin: 5px;
+      text-align: center;
+      color: white;
+    }
+
+    .stretch{
+      align-content: stretch;
+    }
+
+    .center{
+      align-content: center;
+    }
+
+    .start{
+      align-content: flex-start;
+    }
+
+    .end{
+      align-content: flex-end;
+    }
+
+    .between{
+      align-content: space-between;
+    }
+
+    .around{
+      align-content: space-around;
+    }
+  </style>
+</head>
+<body>
+  <p>Stretch</p>
+  <section class="container stretch">
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor sit amet</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">sit amet consectetur adipisicing elit. Earum aspernatur voluptatem</div>
+  </section>
+
+  <p>Center</p>
+  <section class="container center">
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor sit amet</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">sit amet consectetur adipisicing elit. Earum aspernatur voluptatem</div>
+  </section>
+
+  <p>Start</p>
+  <section class="container start">
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor sit amet</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">sit amet consectetur adipisicing elit. Earum aspernatur voluptatem</div>
+  </section>
+
+  <p>End</p>
+  <section class="container end">
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor sit amet</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">sit amet consectetur adipisicing elit. Earum aspernatur voluptatem</div>
+  </section>
+
+  <p>Between</p>
+  <section class="container between">
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor sit amet</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">sit amet consectetur adipisicing elit. Earum aspernatur voluptatem</div>
+  </section>
+
+  <p>Around</p>
+  <section class="container around">
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">Lorem ipsum dolor sit amet</div>
+    <div class="item">Lorem ipsum dolor</div>
+    <div class="item">sit amet consectetur adipisicing elit. Earum aspernatur voluptatem</div>
+  </section>
+</body>
+</html>

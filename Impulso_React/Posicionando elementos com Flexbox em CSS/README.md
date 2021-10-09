@@ -87,5 +87,18 @@ Apresentar os fundamentos e aplicações da propriedade **flexbox** na criação
       - flex-start: alinhamento dos itens no início
       - flex-end: alinhamentos dos itens no final
       - baseline: alinhamento de acordo com a linha base da tipografia dos itens
+  - **Estrutura básica Align Content**
+    - É a propriedade responsável por tratar o alinhamento das linhas do container em relação ao eixo vertical do container
+      - precisamos que:
+        - O container utilize quebra de linhas
+        - A altura do container seja maior que a soma das linhas do itens
+    - **Tipos de Alinhamento**
+      - center: alinhamento dos itens ao centro
+      - stretch: é o padrão do flex itens crescem igualmente
+      - flex-start: alinhamento dos itens no início
+      - flex-end: alinhamentos dos itens no final
+      - space-between: cria um espaço igual entre os elementos
+        - ele vai pegar o primeiro item e deixa muito próximo ao início do container, e a próxima ao fim do container
+      - space-around: os espaçamentos do meio são duas vezes maiores que o inicial e o final
 
 - **Aula 3:** Projeto Integrador
