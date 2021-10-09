@@ -67,5 +67,25 @@ Apresentar os fundamentos e aplicações da propriedade **flexbox** na criação
   - **Estrutura básica Flex Flow**
     - É um atalho para as propriedades **flex-direction** e **flex-wrap**
     - Porém seu uso não é tão comum, visto que, quando mudamos o flex direction para column, mantemos o padrão do flex wrap que é nowrap
+  - **Estrutura básica Justify Content**
+    - Essa propriedade vai se encarregar de alinhar os itens dentro do container de acordo com a direção pretendida e tratar da distribuição de espaçamento entre eles.
+      - obs.: caso o item esteja ocupando 100% do container, essa propriedade não se aplica.
+    - **Variações**
+      - flex-start: início do container
+      - flex-end: final do container
+      - center: ao centro do container
+      - space-between: cria um espaço igual entre os elementos
+        - ele vai pegar o primeiro item e deixa muito próximo ao início do container, e a próxima ao fim do container
+      - space-around: os espaçamentos do meio são duas vezes maiores que o inicial e o final
+  - **Estrutura básica Align Items**
+    - Trata do alinhamento dos flex itens de acordo com o eixo do container
+    - O alinhamento é diferente para quando os itens estão em colunas ou linhas
+    - permite o alinhamento central no eixo vertical
+    - **Tipos de Alinhamentos**
+      - center: alinhamento dos itens ao centro
+      - stretch: padrão, os flex itens cresçam igualmente
+      - flex-start: alinhamento dos itens no início
+      - flex-end: alinhamentos dos itens no final
+      - baseline: alinhamento de acordo com a linha base da tipografia dos itens
 
 - **Aula 3:** Projeto Integrador
