@@ -100,5 +100,14 @@ Apresentar os fundamentos e aplicações da propriedade **flexbox** na criação
       - space-between: cria um espaço igual entre os elementos
         - ele vai pegar o primeiro item e deixa muito próximo ao início do container, e a próxima ao fim do container
       - space-around: os espaçamentos do meio são duas vezes maiores que o inicial e o final
+  - **Estrutura básica e prática com Flex Grow**
+    - Define a proporcionalidade de crescimentos dos itens, respeitando o tamanho de seus conteúdos internos
+      - **Obs.:** não irá funcionar caso tenhamos adicionado justify-content ao nosso flex container
+  - **Estrutura básica do Flex Basis**
+    - É a propriedade que estabelece o tamanho inicial do item antes das distribuições de espaço restantes dentro dele, usando como base o conteúdo interno disposto.
+    - **Valores possíveis**
+      - auto: caso o item não tenha tamanho, este será proporcional ao conteúdo do item.
+      - px, %, em, ...: são valores exatos previamente definidos
+      - 0 (Zero): terá relação com a definição do flex grow. 
 
 - **Aula 3:** Projeto Integrador
