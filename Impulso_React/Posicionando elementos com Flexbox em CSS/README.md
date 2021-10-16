@@ -42,6 +42,9 @@ Apresentar os fundamentos e aplicações da propriedade **flexbox** na criação
       - order
       - align-self
 
+
+---
+
 - **Aula 2:** Fundamentos do Flexbox
 
   - **Estrutura básica do display: flex**
@@ -109,5 +112,22 @@ Apresentar os fundamentos e aplicações da propriedade **flexbox** na criação
       - auto: caso o item não tenha tamanho, este será proporcional ao conteúdo do item.
       - px, %, em, ...: são valores exatos previamente definidos
       - 0 (Zero): terá relação com a definição do flex grow. 
+  - **Estrutura básica do Flex Shrink**
+    - É a propriedade que estabelece a capacidade de redução ou compressão do tamanho de um item.
+  - **Estrutura básica Flex**
+    - Esta propriedade é um atalho ou abreviação de escrita para as propriedades: grow, shrink e basis.
+  - **Estrutura básica Order**
+  - **Estrutura básica Align Self**
+    - Esta propriedade irá estabelecer o alinhamento de modo individual sobre um determinado item.
+    - **Valores Possíveis**
+      - Auto: valor padrão, irá respeitar a definição de align-items do container
+      - flex-start: o início do container
+      - flex-end: final do container
+      - center: relativo ao centro de acordo com o eixo
+      - stretch: ocupa todo os espaços relativo
+      - baseline: utiliza a linha base da tipografia
+
+
+---
 
 - **Aula 3:** Projeto Integrador

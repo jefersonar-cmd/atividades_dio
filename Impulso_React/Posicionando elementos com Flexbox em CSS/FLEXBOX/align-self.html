@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Self</title>
+
+    <style>
+        .container{
+            display: flex;
+            border: 1px solid;
+            margin-bottom: 10px;
+            max-width: 350px;
+        }
+
+        .align-container{
+            align-items: center;
+        }
+
+        .itens{
+            background: chocolate;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            margin: 5px;
+        }
+
+        .center{
+            align-self: center;
+        }
+
+        .start{
+            align-self: flex-start;
+        }
+
+        .end{
+            align-self: flex-end;
+        }
+
+        .stretch{
+            align-self: stretch;
+        }
+
+        .baseline{
+            align-self: baseline;
+        }
+
+        .auto{
+            align-self: auto;
+        }
+    </style>
+</head>
+<body>
+    <p>Align-self: auto | Align-Items: Center</p>
+    <section class="container align-container">
+        <div class="itens auto">123</div>
+        <div class="itens auto">AAA</div>
+        <div class="itens auto">Lorem ipsum dolor sit amet consectetur.</div>
+        <div class="itens auto">Item 4</div>
+    </section>
+</body>
+</html>
